@@ -123,8 +123,10 @@ Also, I took the liberty of implementing a validator inside a function I rewrote
       return;
     }
     showErrMessage('');
+    // ========================================================
     await addTask(title); // before, we had these two lines
     setTitle('');
+    // ========================================================
   }
 ```
 
